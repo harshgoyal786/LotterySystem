@@ -6,7 +6,7 @@ import javax.swing.*;
 
 import java.awt.event.*;
 import javax.swing.table.*;
-class sshowInTable extends JFrame
+class FillLottery extends JFrame
 {	
 Connection con;
 PreparedStatement pstmt;
@@ -70,11 +70,11 @@ ResultSet rs;
       }
 }
 
-public class jtableShowww extends sshowInTable
+public class FillLotteryData extends sshowInTable
 {
 	public static void main(String args[])
 {
-	new sshowInTable();
+	new FillLottery();
 }
 }
 
