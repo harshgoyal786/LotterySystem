@@ -6,7 +6,7 @@ import javax.swing.*;
 
 import java.awt.event.*;
 import javax.swing.table.*;
-class showInTablee extends JFrame
+class FillAgent extends JFrame
 {	
 Connection con;
 PreparedStatement pstmt;
@@ -70,11 +70,11 @@ ResultSet rs;
       }
 }
 
-public class jtableShoww extends showInTablee
+public class FillAgentData extends showInTablee
 {
 	public static void main(String args[])
 {
-	new showInTablee();
+	new FillAgent();
 }
 }
 
